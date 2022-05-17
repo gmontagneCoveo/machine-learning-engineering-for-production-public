@@ -5,6 +5,10 @@ from fastapi import FastAPI
 from pydantic import BaseModel, conlist
 
 
+<<<<<<< HEAD
+=======
+#commented
+>>>>>>> fba2f32 (Testing the CI/CD pipeline)
 app = FastAPI(title="Predicting Wine Class with batching")
 
 # Open classifier in global scope
